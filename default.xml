@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/" />
+  
+    <remote  name="slim"
+           fetch="https://github.com/SlimRoms/" />
+  
+    <remote  name="omni"
+           fetch="https://github.com/OmniRom/" />
+
+  <default revision="refs/tags/android-6.0.1_r43"
+           remote="aosp"
+           sync-j="4" />
+
+  <project path="cm-11.0/espressowifi" name="android_device_samsung_espressowifi" remote="cm" revision="cm-11.0" />
+  <project path="cm-12.1/espressowifi" name="android_device_samsung_espressowifi" remote="cm" revision="cm-12.1" />
+  <project path="cm-13.0/espressowifi" name="android_device_samsung_espressowifi" remote="cm" revision="cm-13.0" />
+
+  <project path="cm-11.0/espresso3g" name="android_device_samsung_espresso3g" remote="cm" revision="cm-11.0" />
+  <project path="cm-12.1/espresso3g" name="android_device_samsung_espresso3g" remote="cm" revision="cm-12.1" />
+  <project path="cm-13.0/espresso3g" name="android_device_samsung_espresso3g" remote="cm" revision="cm-13.0" />
+
+  <project path="android-4.4/espressowifi" name="android_device_samsung_espressowifi" remote="omni" revision="android-4.4" />
+  <project path="android-5.1/espressowifi" name="android_device_samsung_espressowifi" remote="omni" revision="android-5.1" />
+  <project path="android-6.0/espressowifi" name="android_device_samsung_espressowifi" remote="omni" revision="android-6.0" />
+
+  <project path="android-4.4/espresso3g" name="android_device_samsung_espresso3g" remote="omni" revision="android-4.4" />
+  <project path="android-5.1/espresso3g" name="android_device_samsung_espresso3g" remote="omni" revision="android-5.1" />
+  <project path="android-6.0/espresso3g" name="android_device_samsung_espresso3g" remote="omni" revision="android-6.0" />
+  
+  <project path="lp5.1/espressowifi" name="device_samsung_espressowifi" remote="slim" revision="lp5.1" />
+  <project path="mm6.0/espressowifi" name="device_samsung_espressowifi" remote="slim" revision="mm6.0" />
+
+  <project path="lp5.1/espresso3g" name="device_samsung_espresso3g" remote="slim" revision="lp5.1" />
+  <project path="mm6.0/espresso3g" name="device_samsung_espresso3g" remote="slim" revision="mm6.0" />
+
+</manifest>
