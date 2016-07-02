@@ -8,11 +8,14 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
   
-    <remote  name="slim"
-           fetch="https://github.com/SlimRoms/" />
+    <remote  name="omap4-aosp"
+           fetch="https://github.com/OMAP4-AOSP/" />
   
     <remote  name="omni"
            fetch="https://github.com/OmniRom/" />
+
+    <remote  name="slim"
+           fetch="https://github.com/SlimRoms/" />
 
   <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
@@ -51,4 +54,11 @@
   <project path="espresso3g/lp5.1" name="device_samsung_espresso3g" remote="slim" revision="lp5.1" />
   <project path="espresso3g/mm6.0" name="device_samsung_espresso3g" remote="slim" revision="mm6.0" />
 
+  <project path="espressowifi/aosp-4.4" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-4.4" />
+  <project path="espressowifi/aosp-5.1" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-5.1" />
+  <project path="espressowifi/aosp-6.0" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-6.0" />
+
+  <project path="espresso3g/aosp-4.4" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-4.4" />
+  <project path="espresso3g/aosp-5.1" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-5.1" />
+  <project path="espresso3g/aosp-6.0" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-6.0" />
 </manifest>
