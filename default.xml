@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Define remotes -->
+  <remote  name="omap4-aosp"
+           fetch="https://github.com/OMAP4-AOSP/" />
+
+  <!-- Replace build project to build kernel inline from the source -->
+  <project path="build" name="android_build" remote="omap4-aosp" revision="aosp-5.1" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omap4-aosp" revision="aosp-5.1" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="omap4-aosp" revision="aosp-5.1" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omap4-aosp" revision="aosp-5.1" groups="pdk-cw-fs,pdk-fs" /> 
+  <project path="frameworks/native" name="android_frameworks_native" remote="omap4-aosp" revision="aosp-5.1" groups="pdk" /> 
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omap4-aosp" revision="aosp-5.1" groups="pdk" /> 
+  <project path="hardware/ril" name="android_hardware_ril" remote="omap4-aosp" revision="aosp-5.1" groups="pdk" />
+
+
+</manifest>
