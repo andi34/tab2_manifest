@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Define remotes -->
+  <remote  name="omap4-aosp"
+           fetch="https://github.com/OMAP4-AOSP/" />
+
+  <!-- repos with OMAP4 specific additions -->
+  <project path="build" name="android_build" remote="omap4-aosp" revision="aosp-4.4" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="frameworks/av" name="android_frameworks_av" remote="omap4-aosp" revision="aosp-4.4" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omap4-aosp" revision="aosp-4.4" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="omap4-aosp" revision="aosp-4.4" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omap4-aosp" revision="aosp-4.4" groups="pdk" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="omap4-aosp" revision="aosp-4.4" groups="pdk" />
+
+</manifest>
