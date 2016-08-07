@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Define remotes -->
+  <remote  name="slimromssecurity"
+           fetch="https://github.com/SlimRomsSecurity/" />
+  
+  <!-- Patched SlimRoms Repos -->
+  <project path="build" name="android_build" remote="slimromssecurity" revision="kk4.4" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="bootable/recovery" name="bootable_recovery" remote="slimromssecurity" revision="kk4.4" groups="pdk" />
+  <project path="external/aac" name="android_external_aac" remote="slimromssecurity" revision="kk4.4" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slimromssecurity" revision="kk4.4" groups="pdk" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="slimromssecurity" revision="kk4.4" />
+  <project path="external/flac" name="android_external_flac" remote="slimromssecurity" revision="kk4.4" />
+  <project path="external/openssl" name="android_external_openssl" remote="slimromssecurity" revision="kk4.4" groups="pdk" />
+  <project path="external/skia" name="android_external_skia" remote="slimromssecurity" revision="kk4.4" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slimromssecurity" revision="kk4.4" />
+  <project path="frameworks/av" name="frameworks_av" remote="slimromssecurity" revision="kk4.4" />
+  <project path="frameworks/base" name="frameworks_base" remote="slimromssecurity" revision="kk4.4" />
+  <project path="frameworks/native" name="frameworks_native" remote="slimromssecurity" revision="kk4.4" />
+  <project path="libcore" name="android_libcore" remote="slimromssecurity" revision="kk4.4" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimromssecurity" revision="kk4.4" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="slimromssecurity" revision="kk4.4" />
+  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slimromssecurity" revision="kk4.4" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" revision="kk4.4" />
+  <project path="system/core" name="system_core" remote="slimromssecurity" revision="kk4.4" />
+  <project path="platform_manifest" name="platform_manifest" remote="slimromssecurity" revision="kk4.4" />
+
+</manifest>
