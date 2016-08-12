@@ -9,6 +9,7 @@
   <project path="build" name="android_build" remote="slimromssecurity" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="android_bionic" remote="slimromssecurity" revision="kk4.4" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slimromssecurity" revision="kk4.4" groups="pdk" />
   <project path="external/aac" name="android_external_aac" remote="slimromssecurity" revision="kk4.4" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slimromssecurity" revision="kk4.4" groups="pdk" />
@@ -22,6 +23,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="slimromssecurity" revision="kk4.4" />
   <project path="libcore" name="android_libcore" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimromssecurity" revision="kk4.4" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" revision="kk4.4" />
