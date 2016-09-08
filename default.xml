@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Define remotes -->
+  <remote  name="omap4-aosp"
+           fetch="https://github.com/OMAP4-AOSP/"
+           revision="aosp-7.0" />
+
+  <project path="build" name="android_build" remote="omap4-aosp" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="bionic" name="android_bionic" remote="omap4-aosp" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omap4-aosp" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="omap4-aosp" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omap4-aosp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="omap4-aosp" groups="pdk" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="omap4-aosp" groups="pdk" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omap4-aosp" groups="pdk-fs" />
+  <project path="system/core" name="android_system_core" remote="omap4-aosp" />
+
+</manifest>
