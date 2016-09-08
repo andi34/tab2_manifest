@@ -69,8 +69,11 @@
   <project path="espressowifi/aosp-4.4" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-4.4" />
   <project path="espressowifi/aosp-5.1" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-5.1" />
   <project path="espressowifi/aosp-6.0" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-6.0" />
+  <project path="espressowifi/aosp-7.0" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-7.0" />
 
   <project path="espresso3g/aosp-4.4" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-4.4" />
   <project path="espresso3g/aosp-5.1" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-5.1" />
   <project path="espresso3g/aosp-6.0" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-6.0" />
+  <project path="espresso3g/aosp-7.0" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-7.0" />
+
 </manifest>
