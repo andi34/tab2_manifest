@@ -17,6 +17,12 @@
     <remote  name="slim"
            fetch="https://github.com/SlimRoms/" />
 
+    <remote  name="github"
+           fetch="https://github.com/" />
+
+    <remote  name="andi34"
+           fetch="https://github.com/andi34/" />
+
   <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
@@ -56,13 +62,15 @@
   <project path="espresso3g/android-4.4" name="android_device_samsung_espresso3g" remote="omni" revision="android-4.4" />
   <project path="espresso3g/android-5.1" name="android_device_samsung_espresso3g" remote="omni" revision="android-5.1" />
   <project path="espresso3g/android-6.0" name="android_device_samsung_espresso3g" remote="omni" revision="android-6.0" />
-  
+
+  <project path="espressowifi/kk4.4" name="android_device_samsung_espressowifi" remote="andi34" revision="kk4.4" />
   <project path="espressowifi/lp5.1" name="device_samsung_espressowifi" remote="slim" revision="lp5.1" />
   <project path="espressowifi/mm6.0" name="device_samsung_espressowifi" remote="slim" revision="mm6.0" />
   
   <project path="espresso-common/lp5.1" name="device_samsung_espresso-common" remote="slim" revision="lp5.1" />
   <project path="espresso-common/mm6.0" name="device_samsung_espresso-common" remote="slim" revision="mm6.0" />
-  
+
+  <project path="espresso3g/kk4.4" name="android_device_samsung_espresso3g" remote="andi34" revision="kk4.4" />
   <project path="espresso3g/lp5.1" name="device_samsung_espresso3g" remote="slim" revision="lp5.1" />
   <project path="espresso3g/mm6.0" name="device_samsung_espresso3g" remote="slim" revision="mm6.0" />
 
