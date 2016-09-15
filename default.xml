@@ -96,4 +96,17 @@
   <project name="TheLoonyBin/proprietary_vendor_samsung" path="TheLoonyBin/lp5.1" remote="github" revision="lp5.1" />
   <project name="TheLoonyBin/proprietary_vendor_samsung" path="TheLoonyBin/mm6.0" remote="github" revision="mm6.0" />
 
+  <project path="kernel/cm-11.0" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-11.0" />
+  <project path="kernel/cm-12.1" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-12.1" />
+  <project path="kernel/cm-13.0" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-13.0" />
+
+  <project path="kernel/android-4.4" name="android_kernel_samsung_espresso10" remote="omni" revision="android-4.4" />
+  <project path="kernel/android-5.1" name="android_kernel_samsung_espresso10" remote="omni" revision="android-5.1" />
+  <project path="kernel/android-6.0" name="android_kernel_samsung_espresso10" remote="omni" revision="android-6.0" />
+
+  <project path="kernel/lp5.1" name="kernel_samsung_espresso10" remote="slim" revision="lp5.1" />
+  <project path="kernel/mm6.0" name="kernel_samsung_espresso10" remote="slim" revision="mm6.0" />
+
+  <project path="kernel/stable" name="kernel_samsung_espresso" remote="omap4-aosp" revision="stable" />
+
 </manifest>
