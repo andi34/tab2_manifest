@@ -107,6 +107,6 @@
   <project path="kernel/lp5.1" name="kernel_samsung_espresso10" remote="slim" revision="lp5.1" />
   <project path="kernel/mm6.0" name="kernel_samsung_espresso10" remote="slim" revision="mm6.0" />
 
-  <project path="kernel/stable" name="kernel_samsung_espresso" remote="omap4-aosp" revision="stable" />
+  <project path="kernel/stable" name="android_kernel_samsung_espresso" remote="omap4-aosp" revision="stable" />
 
 </manifest>
