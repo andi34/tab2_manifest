@@ -6,16 +6,20 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/" />
+           fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.org" />
   
-    <remote  name="omap4-aosp"
-           fetch="https://github.com/OMAP4-AOSP/" />
+    <remote  name="unlegacy"
+           fetch="https://github.com/Unlegacy-Android/"
+           review="gerrit.unlegacy-android.cf" />
   
     <remote  name="omni"
-           fetch="https://github.com/OmniRom/" />
+           fetch="https://github.com/OmniRom/"
+           review="gerrit.omnirom.org" />
 
     <remote  name="slim"
-           fetch="https://github.com/SlimRoms/" />
+           fetch="https://github.com/SlimRoms/"
+           review="review.slimroms.org" />
 
     <remote  name="github"
            fetch="https://github.com/" />
@@ -74,15 +78,15 @@
   <project path="espresso3g/lp5.1" name="device_samsung_espresso3g" remote="slim" revision="lp5.1" />
   <project path="espresso3g/mm6.0" name="device_samsung_espresso3g" remote="slim" revision="mm6.0" />
 
-  <project path="espressowifi/aosp-4.4" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-4.4" />
-  <project path="espressowifi/aosp-5.1" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-5.1" />
+  <project path="espressowifi/aosp-4.4" name="android_device_samsung_espresso" remote="unlegacy" revision="aosp-4.4" />
+  <project path="espressowifi/aosp-5.1" name="android_device_samsung_espresso" remote="unlegacy" revision="aosp-5.1" />
   <project path="espressowifi/aosp-6.0" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-6.0" />
   <project path="espressowifi/aosp-7.0" name="android_device_samsung_espresso" remote="omap4-aosp" revision="aosp-7.0" />
 
-  <project path="espresso3g/aosp-4.4" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-4.4" />
-  <project path="espresso3g/aosp-5.1" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-5.1" />
-  <project path="espresso3g/aosp-6.0" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-6.0" />
-  <project path="espresso3g/aosp-7.0" name="android_device_samsung_espresso3g" remote="omap4-aosp" revision="aosp-7.0" />
+  <project path="espresso3g/aosp-4.4" name="android_device_samsung_espresso3g" remote="unlegacy" revision="aosp-4.4" />
+  <project path="espresso3g/aosp-5.1" name="android_device_samsung_espresso3g" remote="unlegacy" revision="aosp-5.1" />
+  <project path="espresso3g/aosp-6.0" name="android_device_samsung_espresso3g" remote="unlegacy" revision="aosp-6.0" />
+  <project path="espresso3g/aosp-7.0" name="android_device_samsung_espresso3g" remote="unlegacy" revision="aosp-7.0" />
 
   <project name="DonkeyCoyote/proprietary_vendor_samsung" path="DonkeyCoyote/android-4.4" remote="github" revision="android-4.4" />
   <project name="DonkeyCoyote/proprietary_vendor_samsung" path="DonkeyCoyote/android-5.1" remote="github" revision="android-5.1" />
