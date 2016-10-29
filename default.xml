@@ -47,6 +47,11 @@
   <project path="p3110/cm-11.0" name="android_device_samsung_p3110" remote="cm" revision="cm-11.0" />
   <project path="p5100/cm-11.0" name="android_device_samsung_p5100" remote="cm" revision="cm-11.0" />
   <project path="p5110/cm-11.0" name="android_device_samsung_p5110" remote="cm" revision="cm-11.0" />
+
+  <project path="p3100/cm-12.1" name="android_device_samsung_p3100" remote="cm" revision="cm-12.1" />
+  <project path="p3110/cm-12.1" name="android_device_samsung_p3110" remote="cm" revision="cm-12.1" />
+  <project path="p5100/cm-12.1" name="android_device_samsung_p5100" remote="cm" revision="cm-12.1" />
+  <project path="p5110/cm-12.1" name="android_device_samsung_p5110" remote="cm" revision="cm-12.1" />
   
   <project path="espressowifi/android-4.4" name="android_device_samsung_espressowifi" remote="omni" revision="android-4.4" />
   <project path="espressowifi/android-5.1" name="android_device_samsung_espressowifi" remote="omni" revision="android-5.1" />
@@ -77,7 +82,11 @@
   <project path="espressowifi/mm6.0" name="device_samsung_espressowifi" remote="slim" revision="mm6.0" />
   
   <project path="espresso-common/lp5.1" name="device_samsung_espresso-common" remote="slim" revision="lp5.1" />
-  <project path="espresso-common/mm6.0" name="device_samsung_espresso-common" remote="slim" revision="mm6.0" />
+
+  <project path="p3100/lp5.1" name="device_samsung_p3100" remote="slim" revision="lp5.1" />
+  <project path="p3110/lp5.1" name="device_samsung_p3110" remote="slim" revision="lp5.1" />
+  <project path="p5100/lp5.1" name="device_samsung_p5100" remote="slim" revision="lp5.1" />
+  <project path="p5110/lp5.1" name="device_samsung_p5110" remote="slim" revision="lp5.1" />
 
   <project path="espresso3g/kk4.4" name="android_device_samsung_espresso3g" remote="andi34" revision="kk4.4" />
   <project path="espresso3g/lp5.1" name="device_samsung_espresso3g" remote="slim" revision="lp5.1" />
