@@ -8,56 +8,59 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.org" />
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS/"
+           review="review.lineageos.org" />
   
-    <remote  name="unlegacy"
+  <remote  name="unlegacy"
            fetch="https://github.com/Unlegacy-Android/"
            review="gerrit.unlegacy-android.cf" />
   
-    <remote  name="omni"
+  <remote  name="omni"
            fetch="https://github.com/OmniRom/"
            review="gerrit.omnirom.org" />
 
-    <remote  name="slim"
+  <remote  name="slim"
            fetch="https://github.com/SlimRoms/"
            review="review.slimroms.org" />
 
-    <remote  name="github"
+  <remote  name="github"
            fetch="https://github.com/" />
 
-    <remote  name="andi34"
+  <remote  name="andi34"
            fetch="https://github.com/andi34/" />
 
   <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
 
-  <project path="espressowifi/cm-11.0" name="android_device_samsung_espressowifi" remote="cm" revision="cm-11.0" />
-  <project path="espressowifi/cm-12.1" name="android_device_samsung_espressowifi" remote="cm" revision="cm-12.1" />
-  <project path="espressowifi/cm-13.0" name="android_device_samsung_espressowifi" remote="cm" revision="cm-13.0" />
+  <project path="espressowifi/cm-11.0" name="android_device_samsung_espressowifi" remote="lineage" revision="cm-11.0" />
+  <project path="espressowifi/cm-12.1" name="android_device_samsung_espressowifi" remote="lineage" revision="cm-12.1" />
+  <project path="espressowifi/cm-13.0" name="android_device_samsung_espressowifi" remote="lineage" revision="cm-13.0" />
 
-  <project path="espresso-common/cm-11.0" name="android_device_samsung_espresso-common" remote="cm" revision="cm-11.0" />
-  <project path="espresso-common/cm-12.1" name="android_device_samsung_espresso-common" remote="cm" revision="cm-12.1" />
-  <project path="espresso-common/cm-13.0" name="android_device_samsung_espresso-common" remote="cm" revision="cm-13.0" />
+  <project path="espresso-common/cm-11.0" name="android_device_samsung_espresso-common" remote="lineage" revision="cm-11.0" />
+  <project path="espresso-common/cm-12.1" name="android_device_samsung_espresso-common" remote="lineage" revision="cm-12.1" />
+  <project path="espresso-common/cm-13.0" name="android_device_samsung_espresso-common" remote="lineage" revision="cm-13.0" />
   
-  <project path="espresso3g/cm-11.0" name="android_device_samsung_espresso3g" remote="cm" revision="cm-11.0" />
-  <project path="espresso3g/cm-12.1" name="android_device_samsung_espresso3g" remote="cm" revision="cm-12.1" />
-  <project path="espresso3g/cm-13.0" name="android_device_samsung_espresso3g" remote="cm" revision="cm-13.0" />
+  <project path="espresso3g/cm-11.0" name="android_device_samsung_espresso3g" remote="lineage" revision="cm-11.0" />
+  <project path="espresso3g/cm-12.1" name="android_device_samsung_espresso3g" remote="lineage" revision="cm-12.1" />
+  <project path="espresso3g/cm-13.0" name="android_device_samsung_espresso3g" remote="lineage" revision="cm-13.0" />
 
-  <project path="p3100/cm-11.0" name="android_device_samsung_p3100" remote="cm" revision="cm-11.0" />
-  <project path="p3100/cm-12.1" name="android_device_samsung_p3100" remote="cm" revision="cm-12.1" />
+  <project path="p3100/cm-11.0" name="android_device_samsung_p3100" remote="lineage" revision="cm-11.0" />
+  <project path="p3100/cm-12.1" name="android_device_samsung_p3100" remote="lineage" revision="cm-12.1" />
   <project path="p3100/cm-13.0" name="android_device_samsung_p3100" remote="cm" revision="cm-13.0" />
 
-  <project path="p3110/cm-11.0" name="android_device_samsung_p3110" remote="cm" revision="cm-11.0" />
-  <project path="p3110/cm-12.1" name="android_device_samsung_p3110" remote="cm" revision="cm-12.1" />
-  <project path="p3110/cm-13.0" name="android_device_samsung_p3110" remote="cm" revision="cm-13.0" />
+  <project path="p3110/cm-11.0" name="android_device_samsung_p3110" remote="lineage" revision="cm-11.0" />
+  <project path="p3110/cm-12.1" name="android_device_samsung_p3110" remote="lineage" revision="cm-12.1" />
+  <project path="p3110/cm-13.0" name="android_device_samsung_p3110" remote="lineage" revision="cm-13.0" />
 
-  <project path="p5100/cm-11.0" name="android_device_samsung_p5100" remote="cm" revision="cm-11.0" />
-  <project path="p5100/cm-12.1" name="android_device_samsung_p5100" remote="cm" revision="cm-12.1" />
-  <project path="p5100/cm-13.0" name="android_device_samsung_p5100" remote="cm" revision="cm-13.0" />
+  <project path="p5100/cm-11.0" name="android_device_samsung_p5100" remote="lineage" revision="cm-11.0" />
+  <project path="p5100/cm-12.1" name="android_device_samsung_p5100" remote="lineage" revision="cm-12.1" />
+  <project path="p5100/cm-13.0" name="android_device_samsung_p5100" remote="lineage" revision="cm-13.0" />
 
-  <project path="p5110/cm-11.0" name="android_device_samsung_p5110" remote="cm" revision="cm-11.0" />
-  <project path="p5110/cm-12.1" name="android_device_samsung_p5110" remote="cm" revision="cm-12.1" />
-  <project path="p5110/cm-13.0" name="android_device_samsung_p5110" remote="cm" revision="cm-13.0" />
+  <project path="p5110/cm-11.0" name="android_device_samsung_p5110" remote="lineage" revision="cm-11.0" />
+  <project path="p5110/cm-12.1" name="android_device_samsung_p5110" remote="lineage" revision="cm-12.1" />
+  <project path="p5110/cm-13.0" name="android_device_samsung_p5110" remote="lineage" revision="cm-13.0" />
   
   <project path="espressowifi/android-4.4" name="android_device_samsung_espressowifi" remote="omni" revision="android-4.4" />
   <project path="espressowifi/android-5.1" name="android_device_samsung_espressowifi" remote="omni" revision="android-5.1" />
@@ -134,9 +137,9 @@
   <project name="TheLoonyBin/proprietary_vendor_samsung" path="TheLoonyBin/lp5.1" remote="github" revision="lp5.1" />
   <project name="TheLoonyBin/proprietary_vendor_samsung" path="TheLoonyBin/mm6.0" remote="github" revision="mm6.0" />
 
-  <project path="kernel/cm-11.0" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-11.0" />
-  <project path="kernel/cm-12.1" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-12.1" />
-  <project path="kernel/cm-13.0" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-13.0" />
+  <project path="kernel/cm-11.0" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-11.0" />
+  <project path="kernel/cm-12.1" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-12.1" />
+  <project path="kernel/cm-13.0" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-13.0" />
 
   <project path="kernel/android-4.4" name="android_kernel_samsung_espresso10" remote="omni" revision="android-4.4" />
   <project path="kernel/android-5.1" name="android_kernel_samsung_espresso10" remote="omni" revision="android-5.1" />
@@ -146,5 +149,8 @@
   <project path="kernel/mm6.0" name="kernel_samsung_espresso10" remote="slim" revision="mm6.0" />
 
   <project path="kernel/stable" name="android_kernel_samsung_espresso" remote="unlegacy" revision="stable" />
+  <project path="kernel/staging" name="android_kernel_samsung_espresso" remote="unlegacy" revision="staging" />
+  <project path="kernel/aosp-7.1" name="android_kernel_samsung_espresso" remote="unlegacy" revision="aosp-7.1" />
+
 
 </manifest>
