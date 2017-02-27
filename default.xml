@@ -62,9 +62,9 @@
   <project path="p5110/cm-12.1" name="android_device_samsung_p5110" remote="lineage" revision="cm-12.1" />
   <project path="p5110/cm-13.0" name="android_device_samsung_p5110" remote="lineage" revision="cm-13.0" />
 
-  <project path="omap4/cm-11.0" name="android_hardware_ti_omap40" remote="lineage" revision="cm-11.0" />
-  <project path="omap4/cm-12.1" name="android_hardware_ti_omap40" remote="lineage" revision="cm-12.1" />
-  <project path="omap4/cm-13.0" name="android_hardware_ti_omap40" remote="lineage" revision="cm-13.0" />
+  <project path="omap4/cm-11.0" name="android_hardware_ti_omap4" remote="lineage" revision="cm-11.0" />
+  <project path="omap4/cm-12.1" name="android_hardware_ti_omap4" remote="lineage" revision="cm-12.1" />
+  <project path="omap4/cm-13.0" name="android_hardware_ti_omap4" remote="lineage" revision="cm-13.0" />
 
   <project path="espressowifi/android-4.4" name="android_device_samsung_espressowifi" remote="omni" revision="android-4.4" />
   <project path="espressowifi/android-5.1" name="android_device_samsung_espressowifi" remote="omni" revision="android-5.1" />
