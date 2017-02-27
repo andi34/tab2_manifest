@@ -61,7 +61,11 @@
   <project path="p5110/cm-11.0" name="android_device_samsung_p5110" remote="lineage" revision="cm-11.0" />
   <project path="p5110/cm-12.1" name="android_device_samsung_p5110" remote="lineage" revision="cm-12.1" />
   <project path="p5110/cm-13.0" name="android_device_samsung_p5110" remote="lineage" revision="cm-13.0" />
-  
+
+  <project path="omap4/cm-11.0" name="android_hardware_ti_omap40" remote="lineage" revision="cm-11.0" />
+  <project path="omap4/cm-12.1" name="android_hardware_ti_omap40" remote="lineage" revision="cm-12.1" />
+  <project path="omap4/cm-13.0" name="android_hardware_ti_omap40" remote="lineage" revision="cm-13.0" />
+
   <project path="espressowifi/android-4.4" name="android_device_samsung_espressowifi" remote="omni" revision="android-4.4" />
   <project path="espressowifi/android-5.1" name="android_device_samsung_espressowifi" remote="omni" revision="android-5.1" />
   <project path="espressowifi/android-6.0" name="android_device_samsung_espressowifi" remote="omni" revision="android-6.0" />
@@ -90,6 +94,10 @@
   <project path="espresso3g/android-5.1" name="android_device_samsung_espresso3g" remote="omni" revision="android-5.1" />
   <project path="espresso3g/android-6.0" name="android_device_samsung_espresso3g" remote="omni" revision="android-6.0" />
 
+  <project path="omap4/android-4.4" name="android_hardware_ti_omap4" remote="omni" revision="android-4.4" />
+  <project path="omap4/android-5.1" name="android_hardware_ti_omap4" remote="omni" revision="android-5.1" />
+  <project path="omap4/android-6.0" name="android_hardware_ti_omap4" remote="omni" revision="android-6.0" />
+  
   <project path="espressowifi/kk4.4" name="android_device_samsung_espressowifi" remote="andi34" revision="kk4.4" />
   <project path="espressowifi/lp5.1" name="device_samsung_espressowifi" remote="slim" revision="lp5.1" />
   <project path="espressowifi/mm6.0" name="device_samsung_espressowifi" remote="slim" revision="mm6.0" />
@@ -109,6 +117,9 @@
   <project path="p5110/lp5.1" name="device_samsung_p5110" remote="slim" revision="lp5.1" />
   <project path="p5110/mm6.0" name="device_samsung_p5110" remote="slim" revision="mm6.0" />
 
+  <project path="omap4/lp5.1" name="android_hardware_ti_omap4" remote="slim" revision="lp5.1" />
+  <project path="omap4/mm6.0" name="android_hardware_ti_omap4" remote="slim" revision="mm6.0" />
+
   <project path="espresso3g/kk4.4" name="android_device_samsung_espresso3g" remote="andi34" revision="kk4.4" />
   <project path="espresso3g/lp5.1" name="device_samsung_espresso3g" remote="slim" revision="lp5.1" />
   <project path="espresso3g/mm6.0" name="device_samsung_espresso3g" remote="slim" revision="mm6.0" />
@@ -124,6 +135,8 @@
   <project path="espresso3g/aosp-6.0" name="android_device_samsung_espresso3g" remote="unlegacy" revision="aosp-6.0" />
   <project path="espresso3g/aosp-7.0" name="android_device_samsung_espresso3g" remote="unlegacy" revision="aosp-7.0" />
   <project path="espresso3g/aosp-7.1" name="android_device_samsung_espresso3g" remote="unlegacy" revision="aosp-7.1" />
+
+  <project path="omap4/stable" name="android_hardware_ti_omap4" remote="unlegacy" revision="stable" />
 
   <project name="DonkeyCoyote/proprietary_vendor_samsung" path="DonkeyCoyote/android-4.4" remote="github" revision="android-4.4" />
   <project name="DonkeyCoyote/proprietary_vendor_samsung" path="DonkeyCoyote/android-5.1" remote="github" revision="android-5.1" />
