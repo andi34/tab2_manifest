@@ -117,8 +117,8 @@
   <project path="p5110/lp5.1" name="device_samsung_p5110" remote="slim" revision="lp5.1" />
   <project path="p5110/mm6.0" name="device_samsung_p5110" remote="slim" revision="mm6.0" />
 
-  <project path="omap4/lp5.1" name="android_hardware_ti_omap4" remote="slim" revision="lp5.1" />
-  <project path="omap4/mm6.0" name="android_hardware_ti_omap4" remote="slim" revision="mm6.0" />
+  <project path="omap4/lp5.1" name="hardware_ti_omap4" remote="slim" revision="lp5.1" />
+  <project path="omap4/mm6.0" name="hardware_ti_omap4" remote="slim" revision="mm6.0" />
 
   <project path="espresso3g/kk4.4" name="android_device_samsung_espresso3g" remote="andi34" revision="kk4.4" />
   <project path="espresso3g/lp5.1" name="device_samsung_espresso3g" remote="slim" revision="lp5.1" />
