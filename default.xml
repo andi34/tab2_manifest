@@ -150,20 +150,29 @@
   <project name="TheLoonyBin/proprietary_vendor_samsung" path="TheLoonyBin/lp5.1" remote="github" revision="lp5.1" />
   <project name="TheLoonyBin/proprietary_vendor_samsung" path="TheLoonyBin/mm6.0" remote="github" revision="mm6.0" />
 
-  <project path="kernel/cm-11.0" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-11.0" />
-  <project path="kernel/cm-12.1" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-12.1" />
-  <project path="kernel/cm-13.0" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-13.0" />
+  <project path="kernel/espresso/cm-11.0" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-11.0" />
+  <project path="kernel/espresso/cm-12.1" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-12.1" />
+  <project path="kernel/espresso/cm-13.0" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-13.0" />
 
-  <project path="kernel/android-4.4" name="android_kernel_samsung_espresso10" remote="omni" revision="android-4.4" />
-  <project path="kernel/android-5.1" name="android_kernel_samsung_espresso10" remote="omni" revision="android-5.1" />
-  <project path="kernel/android-6.0" name="android_kernel_samsung_espresso10" remote="omni" revision="android-6.0" />
+  <project path="kernel/espresso/android-4.4" name="android_kernel_samsung_espresso10" remote="omni" revision="android-4.4" />
+  <project path="kernel/espresso/android-5.1" name="android_kernel_samsung_espresso10" remote="omni" revision="android-5.1" />
+  <project path="kernel/espresso/android-6.0" name="android_kernel_samsung_espresso10" remote="omni" revision="android-6.0" />
 
-  <project path="kernel/lp5.1" name="kernel_samsung_espresso10" remote="slim" revision="lp5.1" />
-  <project path="kernel/mm6.0" name="kernel_samsung_espresso10" remote="slim" revision="mm6.0" />
+  <project path="kernel/espresso/lp5.1" name="kernel_samsung_espresso10" remote="slim" revision="lp5.1" />
+  <project path="kernel/espresso/mm6.0" name="kernel_samsung_espresso10" remote="slim" revision="mm6.0" />
 
-  <project path="kernel/stable" name="android_kernel_samsung_espresso" remote="unlegacy" revision="stable" />
-  <project path="kernel/staging" name="android_kernel_samsung_espresso" remote="unlegacy" revision="staging" />
-  <project path="kernel/aosp-7.1" name="android_kernel_samsung_espresso" remote="unlegacy" revision="aosp-7.1" />
+  <project path="kernel/espresso/stable" name="android_kernel_samsung_espresso" remote="unlegacy" revision="stable" />
+  <project path="kernel/espresso/staging" name="android_kernel_samsung_espresso" remote="unlegacy" revision="staging" />
+  <project path="kernel/espresso/aosp-7.1" name="android_kernel_samsung_espresso" remote="unlegacy" revision="aosp-7.1" />
+
+  <project path="tuna/mm6.0" name="device_samsung_tuna" remote="slim" revision="mm6.0" />
+
+  <project path="tuna/aosp-4.4" name="android_device_samsung_tuna" remote="unlegacy" revision="aosp-4.4" />
+  <project path="tuna/aosp-6.0" name="android_device_samsung_tuna" remote="unlegacy" revision="aosp-6.0" />
+  <project path="tuna/aosp-7.1" name="android_device_samsung_tuna" remote="unlegacy" revision="aosp-7.1" />
+
+  <project path="kernel/tuna/stable" name="android_kernel_samsung_tuna" remote="unlegacy" revision="stable" />
+  <project path="kernel/tuna/staging" name="android_kernel_samsung_tuna" remote="unlegacy" revision="staging" />
 
 
 </manifest>
