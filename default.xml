@@ -30,6 +30,9 @@
   <remote  name="andi34"
            fetch="https://github.com/andi34/" />
 
+  <remote  name="private_stuff"
+           fetch="ssh://git@gitlab.com/" />
+
   <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
@@ -163,7 +166,7 @@
 
   <project path="kernel/espresso/stable" name="android_kernel_samsung_espresso" remote="unlegacy" revision="stable" />
   <project path="kernel/espresso/staging" name="android_kernel_samsung_espresso" remote="unlegacy" revision="staging" />
-  <project path="kernel/espresso/aosp-7.1" name="android_kernel_samsung_espresso" remote="unlegacy" revision="aosp-7.1" />
+  <project path="kernel/samsung/espresso-7.1" name="andi34/android_kernel_samsung_espresso" remote="private_stuff" revision="aosp-7.1" />
 
   <project path="tuna/mm6.0" name="device_samsung_tuna" remote="slim" revision="mm6.0" />
 
