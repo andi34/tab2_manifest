@@ -176,10 +176,12 @@
   <project path="kernel/tuna/stable" name="android_kernel_samsung_tuna" remote="unlegacy" revision="stable" />
   <project path="kernel/tuna/staging" name="android_kernel_samsung_tuna" remote="unlegacy" revision="staging" />
 
+  <project path="espresso3g/android-7.1" name="andi34/android_device_samsung_espresso3g" remote="private_stuff" revision="android-7.1" />
   <project path="espresso3g/cm-14.1" name="andi34/android_device_samsung_espresso3g" remote="private_stuff" revision="cm-14.1" />
   <project path="espresso3g/ng7.1" name="andi34/android_device_samsung_espresso3g" remote="private_stuff" revision="ng7.1" />
+  <project path="espressowifi/android-7.1" name="andi34/android_device_samsung_espressowifi" remote="private_stuff" revision="android-7.1" />
   <project path="espressowifi/cm-14.1" name="andi34/android_device_samsung_espressowifi" remote="private_stuff" revision="cm-14.1" />
   <project path="espressowifi/ng7.1" name="andi34/android_device_samsung_espressowifi" remote="private_stuff" revision="ng7.1" />
-  <project path="kernel/samsung/espresso-7.1" name="andi34/android_kernel_samsung_espresso" remote="private_stuff" revision="aosp-7.1" />
+  <project path="kernel/espresso/aosp-7.1" name="andi34/android_kernel_samsung_espresso" remote="private_stuff" revision="aosp-7.1" />
 
 </manifest>
