@@ -40,6 +40,7 @@
   <project path="espressowifi/cm-11.0" name="android_device_samsung_espressowifi" remote="lineage" revision="cm-11.0" />
   <project path="espressowifi/cm-12.1" name="android_device_samsung_espressowifi" remote="lineage" revision="cm-12.1" />
   <project path="espressowifi/cm-13.0" name="android_device_samsung_espressowifi" remote="lineage" revision="cm-13.0" />
+  <project path="espressowifi/cm-14.1" name="android_device_samsung_espressowifi" remote="lineage" revision="cm-14.1" />
 
   <project path="espresso-common/cm-11.0" name="android_device_samsung_espresso-common" remote="lineage" revision="cm-11.0" />
   <project path="espresso-common/cm-12.1" name="android_device_samsung_espresso-common" remote="lineage" revision="cm-12.1" />
@@ -48,6 +49,7 @@
   <project path="espresso3g/cm-11.0" name="android_device_samsung_espresso3g" remote="lineage" revision="cm-11.0" />
   <project path="espresso3g/cm-12.1" name="android_device_samsung_espresso3g" remote="lineage" revision="cm-12.1" />
   <project path="espresso3g/cm-13.0" name="android_device_samsung_espresso3g" remote="lineage" revision="cm-13.0" />
+  <project path="espresso3g/cm-14.1" name="android_device_samsung_espresso3g" remote="lineage" revision="cm-14.1" />
 
   <project path="p3100/cm-11.0" name="android_device_samsung_p3100" remote="lineage" revision="cm-11.0" />
   <project path="p3100/cm-12.1" name="android_device_samsung_p3100" remote="lineage" revision="cm-12.1" />
@@ -149,18 +151,22 @@
   <project name="DonkeyCoyote/proprietary_vendor_samsung" path="DonkeyCoyote/android-4.4" remote="github" revision="android-4.4" />
   <project name="DonkeyCoyote/proprietary_vendor_samsung" path="DonkeyCoyote/android-5.1" remote="github" revision="android-5.1" />
   <project name="DonkeyCoyote/proprietary_vendor_samsung" path="DonkeyCoyote/android-6.0" remote="github" revision="android-6.0" />
+  <project name="DonkeyCoyote/proprietary_vendor_samsung" path="DonkeyCoyote/android-7.1" remote="github" revision="android-7.1" />
 
   <project name="TheMuppets/proprietary_vendor_samsung" path="TheMuppets/cm-11.0" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="TheMuppets/cm-12.1" remote="github" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="TheMuppets/cm-13.0" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="TheMuppets/cm-14.1" remote="github" revision="cm-14.1" />
 
   <project name="proprietary_vendor_samsung-2" path="TheLoonyBin/kk4.4" remote="andi34" revision="kk4.4" />
   <project name="TheLoonyBin/proprietary_vendor_samsung" path="TheLoonyBin/lp5.1" remote="github" revision="lp5.1" />
   <project name="TheLoonyBin/proprietary_vendor_samsung" path="TheLoonyBin/mm6.0" remote="github" revision="mm6.0" />
+  <project name="TheLoonyBin/proprietary_vendor_samsung" path="TheLoonyBin/ng7.1" remote="github" revision="ng7.1" />
 
   <project path="kernel/espresso/cm-11.0" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-11.0" />
   <project path="kernel/espresso/cm-12.1" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-12.1" />
   <project path="kernel/espresso/cm-13.0" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-13.0" />
+  <project path="kernel/espresso/cm-14.1" name="android_kernel_samsung_espresso10" remote="lineage" revision="cm-14.1" />
 
   <project path="kernel/espresso/android-4.4" name="android_kernel_samsung_espresso10" remote="omni" revision="android-4.4" />
   <project path="kernel/espresso/android-5.1" name="android_kernel_samsung_espresso10" remote="omni" revision="android-5.1" />
@@ -168,21 +174,23 @@
 
   <project path="kernel/espresso/lp5.1" name="kernel_samsung_espresso10" remote="slim" revision="lp5.1" />
   <project path="kernel/espresso/mm6.0" name="kernel_samsung_espresso10" remote="slim" revision="mm6.0" />
+  <project path="kernel/espresso/ng7.1" name="kernel_samsung_espresso10" remote="slim" revision="ng7.1" />
 
   <project path="kernel/espresso/stable" name="android_kernel_samsung_espresso" remote="unlegacy" revision="stable" />
   <project path="kernel/espresso/staging" name="android_kernel_samsung_espresso" remote="unlegacy" revision="staging" />
 
   <project path="tuna/mm6.0" name="device_samsung_tuna" remote="slim" revision="mm6.0" />
+  <project path="tuna/ng7.1" name="device_samsung_tuna" remote="slim" revision="ng7.1" />
 
   <project path="tuna/aosp-4.4" name="android_device_samsung_tuna" remote="unlegacy" revision="aosp-4.4" />
   <project path="tuna/aosp-6.0" name="android_device_samsung_tuna" remote="unlegacy" revision="aosp-6.0" />
   <project path="tuna/aosp-7.1" name="android_device_samsung_tuna" remote="unlegacy" revision="aosp-7.1" />
-
+  
+  <project path="kernel/tuna/mm6.0" name="kernel_samsung_tuna" remote="slim" revision="mm6.0" />
+  <project path="kernel/tuna/ng7.1" name="kernel_samsung_tuna" remote="slim" revision="ng7.1" />
   <project path="kernel/tuna/stable" name="android_kernel_samsung_tuna" remote="unlegacy" revision="stable" />
   <project path="kernel/tuna/staging" name="android_kernel_samsung_tuna" remote="unlegacy" revision="staging" />
 
-  <project path="espresso3g/cm-14.1" name="andi34/android_device_samsung_espresso3g" remote="private_stuff" revision="cm-14.1" />
-  <project path="espressowifi/cm-14.1" name="andi34/android_device_samsung_espressowifi" remote="private_stuff" revision="cm-14.1" />
   <project path="kernel/espresso/aosp-7.1" name="andi34/android_kernel_samsung_espresso" remote="private_stuff" revision="aosp-7.1" />
 
 </manifest>
