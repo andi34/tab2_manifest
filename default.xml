@@ -68,10 +68,12 @@
   <project path="omap4/cm-11.0" name="android_hardware_ti_omap4" remote="lineage" revision="cm-11.0" />
   <project path="omap4/cm-12.1" name="android_hardware_ti_omap4" remote="lineage" revision="cm-12.1" />
   <project path="omap4/cm-13.0" name="android_hardware_ti_omap4" remote="lineage" revision="cm-13.0" />
+  <project path="omap4/cm-14.1" name="android_hardware_ti_omap4" remote="lineage" revision="cm-14.1" />
 
   <project path="espressowifi/android-4.4" name="android_device_samsung_espressowifi" remote="omni" revision="android-4.4" />
   <project path="espressowifi/android-5.1" name="android_device_samsung_espressowifi" remote="omni" revision="android-5.1" />
   <project path="espressowifi/android-6.0" name="android_device_samsung_espressowifi" remote="omni" revision="android-6.0" />
+  <project path="espressowifi/android-7.1" name="android_device_samsung_espressowifi" remote="omni" revision="android-7.1" />
 
   <project path="espresso-common/android-4.4" name="android_device_samsung_espresso-common" remote="omni" revision="android-4.4" />
   <project path="espresso-common/android-5.1" name="android_device_samsung_espresso-common" remote="omni" revision="android-5.1" />
@@ -96,6 +98,7 @@
   <project path="espresso3g/android-4.4" name="android_device_samsung_espresso3g" remote="omni" revision="android-4.4" />
   <project path="espresso3g/android-5.1" name="android_device_samsung_espresso3g" remote="omni" revision="android-5.1" />
   <project path="espresso3g/android-6.0" name="android_device_samsung_espresso3g" remote="omni" revision="android-6.0" />
+  <project path="espresso3g/android-7.1" name="android_device_samsung_espresso3g" remote="omni" revision="android-7.1" />
 
   <project path="omap4/android-4.4" name="android_hardware_ti_omap4" remote="omni" revision="android-4.4" />
   <project path="omap4/android-5.1" name="android_hardware_ti_omap4" remote="omni" revision="android-5.1" />
@@ -104,7 +107,8 @@
   <project path="espressowifi/kk4.4" name="android_device_samsung_espressowifi" remote="andi34" revision="kk4.4" />
   <project path="espressowifi/lp5.1" name="device_samsung_espressowifi" remote="slim" revision="lp5.1" />
   <project path="espressowifi/mm6.0" name="device_samsung_espressowifi" remote="slim" revision="mm6.0" />
-  
+  <project path="espressowifi/ng7.1" name="device_samsung_espressowifi" remote="slim" revision="ng7.1" />
+
   <project path="espresso-common/lp5.1" name="device_samsung_espresso-common" remote="slim" revision="lp5.1" />
   <project path="espresso-common/mm6.0" name="device_samsung_espresso-common" remote="slim" revision="mm6.0" />
 
@@ -126,6 +130,7 @@
   <project path="espresso3g/kk4.4" name="android_device_samsung_espresso3g" remote="andi34" revision="kk4.4" />
   <project path="espresso3g/lp5.1" name="device_samsung_espresso3g" remote="slim" revision="lp5.1" />
   <project path="espresso3g/mm6.0" name="device_samsung_espresso3g" remote="slim" revision="mm6.0" />
+  <project path="espresso3g/ng7.1" name="device_samsung_espresso3g" remote="slim" revision="ng7.1" />
 
   <project path="espressowifi/aosp-4.4" name="android_device_samsung_espresso" remote="unlegacy" revision="aosp-4.4" />
   <project path="espressowifi/aosp-5.1" name="android_device_samsung_espresso" remote="unlegacy" revision="aosp-5.1" />
@@ -176,12 +181,8 @@
   <project path="kernel/tuna/stable" name="android_kernel_samsung_tuna" remote="unlegacy" revision="stable" />
   <project path="kernel/tuna/staging" name="android_kernel_samsung_tuna" remote="unlegacy" revision="staging" />
 
-  <project path="espresso3g/android-7.1" name="andi34/android_device_samsung_espresso3g" remote="private_stuff" revision="android-7.1" />
   <project path="espresso3g/cm-14.1" name="andi34/android_device_samsung_espresso3g" remote="private_stuff" revision="cm-14.1" />
-  <project path="espresso3g/ng7.1" name="andi34/android_device_samsung_espresso3g" remote="private_stuff" revision="ng7.1" />
-  <project path="espressowifi/android-7.1" name="andi34/android_device_samsung_espressowifi" remote="private_stuff" revision="android-7.1" />
   <project path="espressowifi/cm-14.1" name="andi34/android_device_samsung_espressowifi" remote="private_stuff" revision="cm-14.1" />
-  <project path="espressowifi/ng7.1" name="andi34/android_device_samsung_espressowifi" remote="private_stuff" revision="ng7.1" />
   <project path="kernel/espresso/aosp-7.1" name="andi34/android_kernel_samsung_espresso" remote="private_stuff" revision="aosp-7.1" />
 
 </manifest>
