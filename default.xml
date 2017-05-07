@@ -105,6 +105,7 @@
   <project path="omap4/android-4.4" name="android_hardware_ti_omap4" remote="omni" revision="android-4.4" />
   <project path="omap4/android-5.1" name="android_hardware_ti_omap4" remote="omni" revision="android-5.1" />
   <project path="omap4/android-6.0" name="android_hardware_ti_omap4" remote="omni" revision="android-6.0" />
+  <project path="omap4/android-7.1" name="android_hardware_ti_omap4" remote="omni" revision="android-7.1" />
   
   <project path="espressowifi/kk4.4" name="android_device_samsung_espressowifi" remote="andi34" revision="kk4.4" />
   <project path="espressowifi/lp5.1" name="device_samsung_espressowifi" remote="slim" revision="lp5.1" />
@@ -128,6 +129,7 @@
 
   <project path="omap4/lp5.1" name="hardware_ti_omap4" remote="slim" revision="lp5.1" />
   <project path="omap4/mm6.0" name="hardware_ti_omap4" remote="slim" revision="mm6.0" />
+  <project path="omap4/ng7.1" name="hardware_ti_omap4" remote="slim" revision="ng7.1" />
 
   <project path="espresso3g/kk4.4" name="android_device_samsung_espresso3g" remote="andi34" revision="kk4.4" />
   <project path="espresso3g/lp5.1" name="device_samsung_espresso3g" remote="slim" revision="lp5.1" />
