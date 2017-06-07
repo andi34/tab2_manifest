@@ -187,7 +187,8 @@
   <project path="tuna/aosp-4.4" name="android_device_samsung_tuna" remote="unlegacy" revision="aosp-4.4" />
   <project path="tuna/aosp-6.0" name="android_device_samsung_tuna" remote="unlegacy" revision="aosp-6.0" />
   <project path="tuna/aosp-7.1" name="android_device_samsung_tuna" remote="unlegacy" revision="aosp-7.1" />
-  
+
+  <project path="kernel/tuna/cm-13.0" name="android_kernel_samsung_tuna" remote="lineage" revision="cm-13.0" />
   <project path="kernel/tuna/mm6.0" name="kernel_samsung_tuna" remote="slim" revision="mm6.0" />
   <project path="kernel/tuna/ng7.1" name="kernel_samsung_tuna" remote="slim" revision="ng7.1" />
   <project path="kernel/tuna/stable" name="android_kernel_samsung_tuna" remote="unlegacy" revision="stable" />
