@@ -28,6 +28,6 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="android-security" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" />
   <project path="system/bt" name="android_system_bt" remote="android-security" groups="pdk" />
-  <project path="system/core" name="Unlegacy-Android/android_system_core" remote="unlegacy" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="android-security" groups="pdk" />
 
 </manifest>
