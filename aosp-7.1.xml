@@ -19,6 +19,7 @@
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" groups="pdk" />
+  <project path="system/bt" name="android_system_bt" groups="pdk" />
   <project path="system/core" name="android_system_core" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" />
 
