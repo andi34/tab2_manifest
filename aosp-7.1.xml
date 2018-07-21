@@ -10,6 +10,7 @@
 
   <project path="build" name="android_build" groups="pdk" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" />
