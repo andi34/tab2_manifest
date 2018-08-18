@@ -21,6 +21,7 @@
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" />
   <project path="external/expat" name="android_external_expat" groups="pdk" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/freetype" name="android_external_freetype" groups="pdk" />
