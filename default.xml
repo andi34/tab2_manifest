@@ -5,10 +5,6 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
-           review="review.cyanogenmod.org" />
-
   <remote  name="lineage"
            fetch="https://github.com/LineageOS/"
            review="review.lineageos.org" />
