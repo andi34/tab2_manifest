@@ -8,6 +8,7 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.org" />
+
   <remote  name="lineage"
            fetch="https://github.com/LineageOS/"
            review="review.lineageos.org" />
@@ -49,7 +50,7 @@
   <project path="espresso3g/cm-14.1" name="android_device_samsung_espresso3g" remote="lineage" revision="cm-14.1" />
 
   <project path="p3100/cm-11.0" name="android_device_samsung_p3100" remote="lineage" revision="cm-11.0" />
-  <project path="p3100/cm-13.0" name="android_device_samsung_p3100" remote="cm" revision="cm-13.0" />
+  <project path="p3100/cm-13.0" name="android_device_samsung_p3100" remote="lineage" revision="cm-13.0" />
 
   <project path="p3110/cm-11.0" name="android_device_samsung_p3110" remote="lineage" revision="cm-11.0" />
   <project path="p3110/cm-13.0" name="android_device_samsung_p3110" remote="lineage" revision="cm-13.0" />
@@ -60,8 +61,10 @@
   <project path="p5110/cm-11.0" name="android_device_samsung_p5110" remote="lineage" revision="cm-11.0" />
   <project path="p5110/cm-13.0" name="android_device_samsung_p5110" remote="lineage" revision="cm-13.0" />
 
-  <project path="omap4/cm-11.0" name="android_hardware_ti_omap4" remote="lineage" revision="cm-11.0" />
-  <project path="omap4/cm-13.0" name="android_hardware_ti_omap4" remote="lineage" revision="cm-13.0" />
+  <project path="omap4/cm-11.0" name="android_hardware_ti_omap4" remote="andi34" revision="cm-11.0" />
+  <project path="omap4/official-cm-11.0" name="android_hardware_ti_omap4" remote="lineage" revision="cm-11.0" />
+  <project path="omap4/cm-13.0" name="android_hardware_ti_omap4" remote="andi34" revision="cm-13.0" />
+  <project path="omap4/official-cm-13.0" name="android_hardware_ti_omap4" remote="lineage" revision="cm-13.0" />
   <project path="omap4/cm-14.1" name="android_hardware_ti_omap4" remote="lineage" revision="cm-14.1" />
 
   <project path="espressowifi/android-4.4" name="android_device_samsung_espressowifi" remote="omni" revision="android-4.4" />
@@ -105,6 +108,7 @@
 
   <project path="p5110/mm6.0" name="device_samsung_p5110" remote="slim" revision="mm6.0" />
 
+  <project path="omap4/kk4.4" name="android_hardware_ti_omap4" remote="andi34" revision="kk4.4" />
   <project path="omap4/mm6.0" name="hardware_ti_omap4" remote="slim" revision="mm6.0" />
   <project path="omap4/ng7.1" name="hardware_ti_omap4" remote="slim" revision="ng7.1" />
 
