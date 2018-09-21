@@ -31,6 +31,7 @@
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" />
+  <project path="external/neven" name="android_external_neven" />
   <project path="external/okhttp" name="android_external_okhttp" />
   <project path="external/openssl" name="android_external_openssl" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" />
