@@ -19,6 +19,7 @@
   <project path="external/libmpeg2" name="android_external_libmpeg2" groups="pdk" />
   <project path="external/libvorbis" name="android_external_libvorbis" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
+  <project path="external/libxml2" name="android_external_libxml2" groups="pdk" />
   <project path="external/neven" name="android_external_neven" groups="pdk" />
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
