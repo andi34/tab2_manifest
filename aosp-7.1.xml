@@ -18,6 +18,7 @@
   <project path="external/libavc" name="android_external_libavc" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" groups="pdk" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
   <project path="external/libvorbis" name="android_external_libvorbis" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" groups="pdk" />
@@ -45,6 +46,7 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" />
   <project path="system/core" name="android_system_core" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="android-security" groups="pdk" />
 
 </manifest>
