@@ -9,6 +9,7 @@
            sync-j="4" />
 
   <project path="build" name="android_build" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" groups="pdk" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" />
