@@ -22,12 +22,10 @@
            review="review.slimroms.org" />
 
   <remote  name="github"
-           fetch="https://github.com/"
-           review="gerrit.unlegacy-android.org" />
+           fetch="https://github.com/" />
 
   <remote  name="andi34"
-           fetch="https://github.com/andi34/"
-           review="gerrit.unlegacy-android.org" />
+           fetch="https://github.com/andi34/" />
 
   <remote  name="private_stuff"
            fetch="ssh://git@gitlab.com/" />
