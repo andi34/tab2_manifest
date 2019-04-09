@@ -9,12 +9,14 @@
            sync-j="4" />
 
   <project path="build" name="android_build" groups="pdk" />
+  <project path="bionic" name="android_bionic" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" groups="pdk" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" />
   <project path="external/curl" name="android_external_curl" groups="pdk" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" />
+  <project path="external/icu" name="android_external_icu" />
   <project path="external/libavc" name="android_external_libavc" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" groups="pdk" />
@@ -50,6 +52,7 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" />
   <project path="system/core" name="android_system_core" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" />
   <project path="system/vold" name="android_system_vold" groups="pdk" />
 
