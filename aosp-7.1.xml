@@ -8,6 +8,7 @@
            remote="android-security"
            sync-j="4" />
 
+  <project path="art" name="android_art" groups="pdk" />
   <project path="build" name="android_build" groups="pdk" />
   <project path="bionic" name="android_bionic" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
@@ -17,8 +18,11 @@
   <project path="external/curl" name="android_external_curl" groups="pdk" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" />
   <project path="external/icu" name="android_external_icu" />
+  <project path="external/ImageMagick" name="android_external_ImageMagick" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" groups="pdk" />
+  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" />
@@ -26,6 +30,7 @@
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" groups="pdk" />
   <project path="external/neven" name="android_external_neven" groups="pdk" />
+  <project path="external/ppp" name="android_external_ppp" groups="pdk" />
   <project path="external/sfntly" name="android_external_sfntly" groups="pdk" />
   <project path="external/skia" name="android_external_skia" groups="pdk" />
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" />
@@ -40,10 +45,12 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" />
   <project path="libcore" name="android_libcore" groups="pdk" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" />
@@ -51,9 +58,13 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" groups="pdk-fs" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/misc" name="android_prebuilts_misc" groups="pdk" />
   <project path="system/bt" name="android_system_bt" groups="pdk" />
   <project path="system/core" name="android_system_core" groups="pdk" />
+  <project path="system/gatekeeper" name="android_system_gatekeeper" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" />
   <project path="system/netd" name="android_system_netd" groups="pdk" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" />
