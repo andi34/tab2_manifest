@@ -21,6 +21,7 @@
   <project path="external/ImageMagick" name="android_external_ImageMagick" groups="pdk" />
   <project path="external/libavc" name="android_external_libavc" groups="pdk" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" />
+  <project path="external/libexif" name="android_external_libexif" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" groups="pdk" />
