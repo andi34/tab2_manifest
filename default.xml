@@ -28,6 +28,7 @@
   <project path="external/icu4c" name="android_external_icu4c" groups="pdk" />
   <project path="external/jhead" name="android_external_jhead" groups="pdk" />
   <project path="external/jpeg" name="android_external_jpeg" groups="pdk" />
+  <project path="external/libexif" name="android_external_libexif" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" />
